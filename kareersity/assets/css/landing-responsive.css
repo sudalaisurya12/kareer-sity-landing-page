@@ -1,0 +1,616 @@
+@media (min-width: 1439px) and (max-width: 1920px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+}
+@media (min-width: 1200px) and (max-width: 1280px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .pharmacist-webinar-title.bg-green-color h6 {
+    font-size: 15px;
+  }
+  .pharmacist-webinar-title h1 {
+    font-size: 29px;
+    margin-bottom: 28px;
+  }
+  .pharmacist-webinar-title.bg-green-color p {
+    font-size: 12px;
+  }
+  .phamacist-register-btn a span::before {
+    height: 2px;
+    width: 50px;
+
+    margin-top: 12px;
+  }
+  .phamacist-register-btn {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .phamacist-register-btn a {
+    padding: 8px 19px;
+
+    font-size: 14px;
+  }
+  .key-card-img {
+    width: 30%;
+  }
+  .key-deliverable-area {
+    padding: 15px;
+  }
+  .phamacist-course-area h3 {
+    font-size: 21px;
+  }
+  .founder-content-area p {
+    margin-bottom: 16px;
+  }
+  .founder-logo-cipla {
+    width: 25%;
+  }
+  .bonues-content-box h4 {
+    font-size: 21px;
+  }
+  .enroll-price-save h3 {
+    font-size: 25px;
+  }
+  .phamacist-workshop-list-box {
+    width: 80%;
+  }
+  .whatsapp-area-sec {
+    width: 20%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .pharmacist-webinar-title.bg-green-color h6 {
+    font-size: 15px;
+  }
+  .phamacist-workshop-list-box {
+    width: 90%;
+  }
+  .phamacist-img {
+    width: 60%;
+    margin: auto;
+  }
+  .pharmacist-webinar-title h1 {
+    font-size: 26px;
+    margin-bottom: 28px;
+  }
+  .pharmacist-webinar-title.bg-green-color p {
+    font-size: 12px;
+  }
+  .phamacist-register-btn a span::before {
+    height: 2px;
+    width: 50px;
+    margin-top: 12px;
+  }
+  .phamacist-register-btn {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .phamacist-register-btn a {
+    padding: 8px 19px;
+    font-size: 14px;
+  }
+  .key-card-img {
+    width: 30%;
+  }
+  .key-deliverable-area {
+    padding: 15px;
+  }
+  .phamacist-course-area h3 {
+    font-size: 21px;
+  }
+  .founder-content-area p {
+    margin-bottom: 16px;
+  }
+  .founder-logo-cipla {
+    width: 15%;
+  }
+  .bonues-content-box h4 {
+    font-size: 21px;
+  }
+  .enroll-price-save h3 {
+    font-size: 20px;
+  }
+  .phamacist-accordion-sec .accordion-button {
+    font-size: 16px;
+  }
+  .phamacist-accordion-sec .accordion-button::after {
+    width: 10px;
+    height: 10px;
+  }
+  .founder-row {
+    grid-template-columns: auto;
+  }
+  .bonues-card-sec {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 25px;
+    margin: 60px 0px;
+  }
+  .enroll-list-area ul {
+    display: inline-flex;
+    gap: 0px;
+  }
+  .founder-bg-sec .pharmacist-webinar-title h1 {
+    margin-bottom: 25px;
+    font-size: 26px;
+  }
+  .key-card-img-content p {
+    line-height: 21px;
+  }
+  .phamacist-course-sec {
+    gap: 25px;
+  }
+  .founder-img img {
+    width: 100%;
+  }
+  .price-original p {
+    font-size: 60px;
+  }
+  .whatsapp-area-sec {
+    width: 24%;
+  }
+}
+@media (max-width: 767px) {
+  .pharmacist-webinar-title.bg-green-color h6 {
+    font-size: 15px;
+  }
+  .pharmacist-webinar-title h1 {
+    font-size: 24px;
+    margin-bottom: 28px;
+  }
+  .phamacist-workshop-list-box {
+    width: 90%;
+  }
+  .pharmacist-webinar-title.bg-green-color p {
+    font-size: 12px;
+  }
+  .phamacist-img {
+    width: 60%;
+    margin: auto;
+  }
+  .phamacist-register-btn a span::before {
+    height: 2px;
+    width: 50px;
+    margin-top: 12px;
+  }
+  .phamacist-register-btn {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .phamacist-register-btn a {
+    padding: 8px 19px;
+    font-size: 14px;
+  }
+  .key-card-img {
+    width: 30%;
+  }
+  .key-deliverable-area {
+    padding: 15px;
+  }
+  .phamacist-course-area h3 {
+    font-size: 21px;
+  }
+  .founder-content-area p {
+    margin-bottom: 16px;
+  }
+  .founder-logo-cipla {
+    width: 15%;
+  }
+  .bonues-content-box h4 {
+    font-size: 21px;
+  }
+  .enroll-price-save h3 {
+    font-size: 20px;
+  }
+  .phamacist-accordion-sec .accordion-button {
+    font-size: 16px;
+  }
+  .phamacist-accordion-sec .accordion-button::after {
+    width: 10px;
+    height: 10px;
+  }
+  .founder-row {
+    grid-template-columns: auto;
+  }
+  .bonues-card-sec {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 25px;
+    margin: 60px 0px;
+  }
+  .enroll-list-area ul {
+    display: inline-flex;
+    gap: 0px;
+  }
+  .founder-bg-sec .pharmacist-webinar-title h1 {
+    margin-bottom: 25px;
+    font-size: 26px;
+  }
+  .key-card-img-content p {
+    line-height: 21px;
+  }
+  .phamacist-course-sec {
+    gap: 25px;
+  }
+  .founder-img img {
+    width: 100%;
+  }
+  .price-original p {
+    font-size: 60px;
+  }
+  .workshop-register-title h1 {
+    font-size: 23px;
+    width: 100%;
+  }
+  .workshop-regi-form-title h3 {
+    font-size: 18px;
+  }
+  .course-title-area-sec.course-name {
+    display: grid !important;
+    grid-template-columns: 40% auto auto !important;
+  }
+  .whatsapp-area-sec {
+    width: 24%;
+  }
+}
+@media (max-width: 575px) {
+  .workshop-regi-form-title h3 {
+    font-size: 16px;
+  }
+  .workshop-register-form-sec {
+    background-color: #107b38;
+    padding: 20px 25px 25px 25px;
+    border-radius: 10px;
+  }
+  .phamacist-logo-sec {
+    background-color: #e9fff2;
+    border: 2px solid #107b38;
+    border-radius: 6px;
+    width: 70%;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 12px;
+    margin-bottom: 35px;
+  }
+  .workshop-register-title h1 {
+    font-size: 21px;
+    width: 100%;
+  }
+  .hexagon-top-left-img {
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    width: 25%;
+  }
+  .hexagon-top-right-img {
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    width: 25%;
+  }
+  .pharmacist-webinar-title h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .pharmacist-webinar-title.bg-green-color p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .pharmacist-webinar-title.bg-green-color h6 {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+  .phamacist-workshop-list-box {
+    width: 95%;
+    padding: 20px;
+  }
+  .key-deliverable-card-sec {
+    gap: 15px;
+  }
+  .phamacist-course-area p {
+    line-height: 23px;
+  }
+  .founder-row {
+    margin-bottom: 30px;
+  }
+  .register-ent-count {
+    margin-bottom: 40px;
+  }
+  .enroll-card-design-area {
+    gap: 25px;
+  }
+  .price-strike p::before {
+    height: 3px;
+    width: 85px;
+    margin-top: 26px;
+    left: -5px;
+  }
+  .enroll-card-design-sec {
+    margin-bottom: 50px;
+  }
+  .hexagon-bottom-right-img {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 20%;
+  }
+  .hexagon-bottom-left-img {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 20%;
+  }
+  .price-original p {
+    font-size: 44px;
+    margin-bottom: 0px;
+    line-height: 30px;
+  }
+  .whatsapp-area-sec {
+    width: 27%;
+  }
+}
+@media (max-width: 568px) {
+}
+@media (max-width: 480px) {
+  .workshop-register-title h1 {
+    border: 2px dashed #107b38;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 17px;
+    width: 80%;
+    margin: auto;
+  }
+  .workshop-content p {
+    font-size: 9px;
+  }
+  .workshop-content h5 {
+    font-size: 17px;
+  }
+  .btn.workshop-register-btn {
+    font-size: 12px;
+  }
+  .course-name-area p {
+    font-size: 13px;
+    line-height: 21px;
+  }
+  .course-name-area h5 {
+    font-size: 17px;
+  }
+  .nav-tabs .nav-link {
+    align-items: center;
+    height: 80px;
+  }
+  .whatsapp-area-sec {
+    width: 32%;
+  }
+}
+@media (max-width: 414px) {
+  .pharmacist-webinar-title h1 {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+  .bounes-card-area {
+    width: 85%;
+    margin: auto;
+  }
+  .bonues-img-box {
+    text-align: right;
+    margin-bottom: 20px !important;
+    width: 25%;
+    margin: 0 0 0 auto;
+  }
+  .phamacist-img {
+    width: 80%;
+    margin: auto;
+  }
+  .bonues-content-box h4 {
+    font-size: 17px;
+  }
+  .pharmacist-webinar-title.bg-green-color h6 {
+    font-size: 14px;
+  }
+  .key-card-img-content h5 {
+    font-size: 17px;
+  }
+  .whatsapp-area-sec {
+    width: 36%;
+  }
+
+  .key-card-img {
+    width: 35%;
+    padding: 8px;
+
+    margin-bottom: 20px;
+  }
+  .key-deliverable-area {
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+  }
+  .key-deliverable-card-sec {
+    grid-template-columns: auto;
+  }
+  .phamacist-course-area h3 {
+    font-size: 17px;
+  }
+  .phamacist-course-sec {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 35px;
+    margin-bottom: 60px;
+  }
+  .founder-bg-sec .pharmacist-webinar-title p {
+    margin-bottom: 30px;
+  }
+  .founder-content-area p {
+    line-height: 24px;
+  }
+  .phamecist-cerficate-img {
+    width: 60%;
+  }
+  .phamecist-cerficate-img {
+    margin-bottom: 40px;
+  }
+  .enroll-card-design-sec {
+    padding: 21px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+  }
+  .enroll-card-design-area {
+    margin-bottom: 15px;
+  }
+  .enroll-price-save h3 {
+    font-size: 17px;
+  }
+  .phamecist-cerficate-img {
+    margin-bottom: 40px;
+    width: 75%;
+  }
+  .enroll-list-area ul li {
+    padding-left: 18px;
+    line-height: 1.3em;
+    font-size: 13px;
+  }
+  .enroll-list-area ul li::before {
+    top: 1px;
+    font-size: 18px;
+    left: 5px;
+    font-weight: 900;
+  }
+  .enroll-card-design-sec {
+    padding: 15px;
+  }
+  .phamacist-accordion-sec .accordion-body {
+    padding: 0rem 1.25rem;
+  }
+  .enroll-list-area ul {
+    display: grid;
+    gap: 5px;
+  }
+  .price-strike p {
+    position: relative;
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  .price-strike p::before {
+    height: 3px;
+    width: 50px;
+    margin-top: 15px;
+    left: 15px;
+  }
+  .pharmacist-date-time {
+    margin-bottom: 40px;
+  }
+  .phamacist-register-btn a {
+    padding: 6px 16px;
+    font-size: 16px;
+  }
+  .phamacist-register-btn a span::before {
+    height: 2px;
+    width: 45px;
+    margin-top: 12px;
+    left: -2px;
+  }
+  .pharmacist-webinar-title ul li {
+    padding-left: 30px;
+    line-height: 1.3em;
+    font-size: 14px;
+  }
+  .phamacist-workshop-list-box {
+    width: 95%;
+    padding: 15px;
+  }
+  .phamacist-img iframe {
+    width: 260px;
+    height: 155px;
+  }
+  .counter {
+    color: #fff;
+    font-family: "IBM Plex Sans";
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 375px) {
+  .pharmacist-webinar-title.bg-green-color h6 {
+    font-size: 13px;
+  }
+  .pharmacist-webinar-title h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .pharmacist-date-picker .pharmacist-icon i {
+    font-size: 16px;
+  }
+  .pharmacist-date-picker .pharmacist-content p {
+    font-size: 12px;
+  }
+  .whatsapp-area-sec {
+    width: 42%;
+  }
+  .whatapp-icon-content h5 {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  .phamacist-logo-area {
+    width: 100%;
+    margin: auto;
+  }
+  .phamacist-logo-sec {
+    width: 85%;
+    margin-bottom: 25px;
+  }
+  .phamacist-register-btn a {
+    padding: 6px 16px;
+    font-size: 14px;
+  }
+  .key-card-img-content p {
+    line-height: 18px;
+    font-size: 13px;
+  }
+  .key-card-img {
+    margin-bottom: 13px;
+  }
+  .phamacist-course-area p {
+    line-height: 20px;
+    font-size: 13px;
+  }
+  .founder-bg-sec .pharmacist-webinar-title p {
+    line-height: 23px;
+  }
+  .founder-bg-sec .pharmacist-webinar-title h1 {
+    margin-bottom: 18px;
+    font-size: 23px;
+  }
+  .founder-name p {
+    font-size: 16px;
+  }
+  .founder-name h1 {
+    font-size: 25px;
+  }
+  .founder-content-area p {
+    line-height: 21px;
+    font-size: 14px;
+  }
+  .register-ent-count {
+    margin-bottom: 25px;
+  }
+  .bonues-card-sec {
+    margin: 35px 0px;
+  }
+  .enroll-price-save h3 {
+    font-size: 16px;
+  }
+  .enroll-card-design-area {
+    gap: 15px;
+  }
+  .phamacist-register-btn a span::before {
+    height: 2px;
+    width: 40px;
+    margin-top: 12px;
+    left: -2px;
+  }
+}
+@media (max-width: 320px) {
+}

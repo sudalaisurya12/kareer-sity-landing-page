@@ -1,0 +1,804 @@
+/* fonts */
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("../fonts/IBMPlexSans-Bold.eot");
+  src: url("../fonts/IBMPlexSans-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/IBMPlexSans-Bold.woff2") format("woff2"),
+    url("../fonts/IBMPlexSans-Bold.woff") format("woff"),
+    url("../fonts/IBMPlexSans-Bold.ttf") format("truetype"),
+    url("../fonts/IBMPlexSans-Bold.svg#IBMPlexSans-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("../fonts/IBMPlexSans-Medium.eot");
+  src: url("../fonts/IBMPlexSans-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/IBMPlexSans-Medium.woff2") format("woff2"),
+    url("../fonts/IBMPlexSans-Medium.woff") format("woff"),
+    url("../fonts/IBMPlexSans-Medium.ttf") format("truetype"),
+    url("../fonts/IBMPlexSans-Medium.svg#IBMPlexSans-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("../fonts/IBMPlexSans-Light.eot");
+  src: url("../fonts/IBMPlexSans-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/IBMPlexSans-Light.woff2") format("woff2"),
+    url("../fonts/IBMPlexSans-Light.woff") format("woff"),
+    url("../fonts/IBMPlexSans-Light.ttf") format("truetype"),
+    url("../fonts/IBMPlexSans-Light.svg#IBMPlexSans-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("../fonts/IBMPlexSans-SemiBold.eot");
+  src: url("../fonts/IBMPlexSans-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/IBMPlexSans-SemiBold.woff2") format("woff2"),
+    url("../fonts/IBMPlexSans-SemiBold.woff") format("woff"),
+    url("../fonts/IBMPlexSans-SemiBold.ttf") format("truetype"),
+    url("../fonts/IBMPlexSans-SemiBold.svg#IBMPlexSans-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+/* Miscellanoeous */
+body,
+html {
+  overflow-x: hidden;
+  padding-right: 0 !important;
+}
+*:-moz-full-screen,
+*:-webkit-full-screen,
+*:fullscreen *:-ms-fullscreen {
+  overflow: auto !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "IBM Plex Sans";
+  font-weight: 600;
+  letter-spacing: 0.36px;
+  color: #fff;
+}
+ul {
+  list-style-type: none !important;
+  padding-left: 0;
+  margin: 0;
+}
+a {
+  outline: 0;
+  transition: all 0.5s;
+  color: #191919;
+  letter-spacing: 0.36px;
+  font-family: "IBM Plex Sans";
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  font-family: "IBM Plex Sans";
+}
+a:hover,
+a:focus,
+a:active {
+  outline: none !important;
+  text-decoration: none;
+  font-family: "IBM Plex Sans";
+}
+ul li {
+  list-style: none;
+  font-family: "Montserrat";
+}
+ul {
+  padding-left: 0px;
+}
+p {
+  color: #fff;
+  line-height: 1.8em;
+  font-weight: 300;
+  font-family: "IBM Plex Sans";
+  font-weight: normal;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+}
+
+.container-flex {
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 975px;
+}
+.body-bg-color{
+  background-color: #000;
+}
+.page-wrapper {
+
+  position: relative;
+ 
+}
+.pharmacist-webinar-title.bg-green-color h6 {
+  background-color: #107b38;
+  border-radius: 6px;
+  margin-top: 35px;
+  padding: 12px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.pharmacist-webinar-title h1 {
+  margin-bottom: 36px;
+  font-size: 39px;
+}
+.pharmacist-webinar-title.bg-green-color p {
+  font-size: 17px;
+}
+.pharmacist-date-picker {
+  background-color: #e9fff2;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+.pharmacist-date-picker .pharmacist-content p {
+  color: #231f40;
+  font-size: 14px;
+}
+.pharmacist-date-picker .pharmacist-icon i {
+  color: #107b38;
+  font-size: 20px;
+}
+.pharmacist-date-picker .pharmacist-content p {
+  color: #231f40;
+}
+.pharmacist-date-time {
+  margin-bottom: 50px;
+}
+.phamacist-register-btn a {
+  background-color: #107b38;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 6px;
+  font-size: 23px;
+}
+.phamacist-img {
+  width: 47%;
+  margin: auto;
+}
+.phamacist-sec-area {
+  position: relative;
+}
+@keyframes shadowPulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(21, 219, 150, 0.4);
+    box-shadow: 0 0 0 0 rgba(21, 219, 150, 0.4);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 40px rgba(21, 219, 150, 0);
+    box-shadow: 0 0 0 40px rgba(21, 219, 150, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(21, 219, 150, 0);
+    box-shadow: 0 0 0 0 rgba(21, 219, 150, 0);
+  }
+}
+
+.video-btn  {
+  position: absolute;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  line-height: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 25px;
+  background-color: #107b38;
+  color: #fff;
+  color: #fff !important;
+  -webkit-animation: shadowPulse 2s linear infinite;
+  animation: shadowPulse 2s linear infinite;
+  -webkit-box-shadow: 0 0 0 10px rgba(108, 92, 231, 0.4);
+  box-shadow: 0 0 0 10px rgb(108, 92, 231, 0.4);
+}
+.video-btn span {
+  position: absolute;
+  top: 15px;
+  left: 19px;
+  color: #fff;
+  font-size: 20px;
+}
+.video-one__box{
+  background-image: url(../images/landing-page-img/pharmacist-img-1.png);
+}
+/***
+=============================================
+    Video One
+=============================================
+***/
+.video-one {
+  position: relative;
+  display: block;
+  padding: 0px 0px 0px;
+  z-index: 2;
+  margin-top: -350px;
+  margin-bottom: 100px;
+}
+
+.video-one__box {
+  position: relative;
+  display: flex;
+  min-height: 620px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 8px;
+}
+
+.video-one__box-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-one__box-title h2 {
+  color: rgba(255, 255, 255, .5);
+  font-size: 70px;
+  line-height: 1em;
+  font-weight: 400;
+  font-family: var(--thm-reey-font);
+}
+
+.video-one__box .icon {
+  position: relative;
+  display: inline-block;
+}
+
+.video-one__box .icon a {
+  position: relative;
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  text-align: center;
+  color: var(--thm-black);
+  background: var(--thm-primary);
+  border-radius: 50%;
+  z-index: 1;
+  transition: all 500ms ease;
+}
+
+.video-one__box .icon a span::before {
+  font-size: 35px;
+  line-height: 110px;
+}
+
+.video-one__box .icon .border-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--thm-primary);
+  animation: squares 2.9s linear 0s infinite;
+  -webkit-animation: squares 2.9s linear 0s infinite;
+  -ms-animation: squares 2.9s linear 0s infinite;
+  -o-animation: squares 2.9s linear 0s infinite;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+  opacity: 0;
+  border-radius: 50%;
+}
+
+.video-one__box .icon .border-animation.border-2 {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.video-one__box .icon .border-animation.border-3 {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+
+.phamacist-img iframe {
+  width: 400px;
+  height: 245px;
+}
+.phamacist-register-btn {
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.phamacist-register-btn a span {
+  position: relative;
+  color: rgba(255, 255, 255, 1);
+  margin: 0px 20px;
+  font-weight: 300;
+}
+.phamacist-register-btn a span::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 70px;
+  background-color: #fff;
+  margin-top: 17px;
+  opacity: 1;
+
+  transform: skewY(14deg);
+  left: -7px;
+}
+.phamacist-logo-title h5 {
+  color: #231f40;
+  font-weight: 400;
+  font-size: 16px;
+}
+.phamacist-logo-area {
+  width: 85%;
+  margin: auto;
+}
+.phamacist-logo-sec {
+  background-color: #e9fff2;
+  border: 2px solid #107b38;
+  border-radius: 6px;
+  width: 40%;
+  margin: auto;
+  padding: 12px;
+  margin-bottom: 35px;
+}
+.phamacist-bg-img-one {
+  background-image: url(../images/landing-page-img/phamacist-bg-img-1.png);
+  background-size: cover;
+  background-position: center;
+}
+.register-ent-count {
+  margin-bottom: 65px;
+}
+.pharmacist-webinar-title ul li {
+  padding-left: 35px;
+  color: #fff;
+  line-height: 1.4em;
+  margin-bottom: 7px;
+  padding-bottom: 8px;
+  padding-top: 0px;
+  letter-spacing: 0.5px;
+  position: relative;
+  font-family: "IBM Plex Sans";
+  text-align: left;
+  letter-spacing: 0.48px;
+}
+.pharmacist-webinar-title ul li::before {
+  font-family: "Font Awesome\ 5 Free";
+  content: "\f00c";
+  color: #fff;
+  position: absolute;
+  top: 0px;
+  font-size: 13px;
+  left: 6px;
+  font-weight: 900;
+}
+.counter {
+  color: #fff;
+  font-family: "IBM Plex Sans";
+}
+.phamacist-workshop-list-box {
+  width: 70%;
+  margin: auto;
+  background-color: #107b38;
+  padding: 27px;
+  border-radius: 10px;
+}
+.key-card-img-content p {
+  margin-bottom: 0px;
+}
+.key-deliverable-area {
+  padding: 45px;
+  background-color: #107b38;
+  border-radius: 6px;
+  background-image: url(../images/landing-page-img/phamacist-card-img.png);
+  background-size: cover;
+  background-position: center;
+}
+.key-deliverable-card-sec {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+.key-card-img {
+  border: 1px solid #107b38;
+  border-radius: 6px;
+  background-color: #fff;
+  width: 20%;
+  padding: 12px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.sea-shadow-bg-sec {
+  background-image: url(../images/landing-page-img/sea-shadow-img.png);
+  position: relative;
+  background-attachment: fixed !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  z-index: 1;
+}
+.phamacist-course-area p {
+  margin-bottom: 0px;
+}
+.phamacist-course-sec {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 55px;
+  margin-bottom: 60px;
+}
+.founder-bg-sec .pharmacist-webinar-title h1 {
+  margin-bottom: 25px;
+  font-size: 39px;
+}
+.founder-bg-sec .pharmacist-webinar-title p {
+  margin-bottom: 50px;
+ 
+}
+.founder-name {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 0px 0px 10px 10px;
+}
+.founder-name h1 {
+  color: #107b38;
+  margin-bottom: 0px;
+  letter-spacing: 0.86px;
+  font-size: 30px;
+}
+.founder-name p {
+  color: #231f40;
+  margin-bottom: 0px;
+  letter-spacing: 0.52px;
+  font-size: 17px;
+}
+.founder-row {
+  display: grid;
+  grid-template-columns: 300px auto;
+  gap: 40px;
+  margin-bottom: 65px;
+}
+.bonues-img-box {
+  text-align: right;
+  margin-bottom: 20px;
+}
+.bonues-content-box h4 {
+  letter-spacing: 0.64px;
+  width: 90%;
+}
+.bounes-card-area {
+  box-shadow: 0px 0px 41px #107b3847;
+  border: 1px solid #107b38;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: black;
+}
+.bonues-card-sec {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 45px;
+  margin: 60px 0px;
+}
+.phamecist-cerficate-img {
+  width: 40%;
+  margin: auto;
+}
+.founder-logo-cipla {
+  width: 14%;
+}
+.founder-content-area p {
+  margin-bottom: 32px;
+}
+
+.phamecist-cerficate-img {
+  margin-bottom: 60px;
+}
+
+.enroll-card-design-area {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 60px;
+  margin-bottom: 30px;
+}
+.price-strike p {
+  position: relative;
+  z-index: 1;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+.price-strike p::before {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 88px;
+  background-color: #fff;
+  margin-top: 25px;
+  opacity: 1;
+  transform: skewY(13deg);
+  left: 26px;
+}
+.price-original p {
+  font-size: 75px;
+  margin-bottom: 0px;
+  line-height: 55px;
+}
+.enroll-price-save h3 {
+  text-align: left;
+  font-size: 32px;
+}
+.enroll-list-area ul {
+  display: inline-flex;
+  gap: 20px;
+}
+
+.enroll-list-area ul li {
+  padding-left: 25px;
+  color: #fff;
+  line-height: 1.4em;
+
+  padding-top: 0px;
+  letter-spacing: 0.5px;
+  position: relative;
+  font-family: "IBM Plex Sans";
+  text-align: left;
+  letter-spacing: 0.48px;
+}
+.enroll-list-area ul li::before {
+  font-family: "Font Awesome\ 5 Free";
+  content: "\f0da";
+  color: #fff;
+  position: absolute;
+  top: 4px;
+  font-size: 22px;
+  left: 5px;
+  font-weight: 900;
+}
+.enroll-card-design-sec {
+  background-color: #107b38;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 70px;
+}
+.phamacist-accordion-sec .accordion-button::after {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin-left: 0.5em;
+  border-top: 0.25em solid white;
+  border-right: 0.25em solid white;
+  transform: rotate(130deg);
+  transition: transform 0.3s ease;
+  position: absolute;
+right: 0;
+}
+
+.phamacist-accordion-sec .accordion-button.collapsed::after {
+  transform: rotate(-45deg);
+}
+.phamacist-accordion-sec .accordion-item {
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: none;
+}
+.phamacist-accordion-sec .accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  background-color: black;
+  color: #fff;
+}
+.phamacist-accordion-sec .accordion-body {
+  padding: 1rem 1.25rem;
+  background-color: black;
+  color: #fff;
+}
+.phamacist-accordion-sec .accordion-button:not(.collapsed) {
+  color: #fff;
+  background-color: #000;
+  box-shadow: none;
+}
+.phamacist-accordion-sec .accordion-button {
+  color: #fff;
+  background-color: black;
+  font-weight: 800;
+  font-size: 18px;
+}
+.phamacist-accordion-sec .accordion-button:focus {
+  z-index: 3;
+  border-color: none;
+  outline: 0;
+  box-shadow: none ;
+}
+.phamacist-accordion-sec {
+  margin-bottom: 60px;
+}
+
+.hexagon-top-right-img {
+  position: absolute;
+  top: -30px;
+  right: -25px;
+  z-index: -1;
+}
+.hexagon-bottom-left-img {
+  position: absolute;
+  bottom: 0px;
+  left: -25px;
+  z-index: -1;
+}
+.hexagon-bottom-right-img {
+  position: absolute;
+  bottom: 0px;
+  right: -25px;
+  z-index: -1;
+}
+.hexagon-top-left-img {
+  position: absolute;
+  top: -30px;
+  left: -25px;
+  z-index: -1;
+}
+.hexagon-line-right-img {
+  position: absolute;
+  right: 0;
+  bottom: 400px;
+  z-index: -1;
+}
+.plus-line-left-img {
+  position: absolute;
+  left: 0;
+  bottom: -192px;
+  width: 32%;
+  z-index: -1;
+}
+.founder-bg-sec {
+  position: relative;
+  z-index: 1;
+}
+.founder.hexagon-left {
+  position: absolute;
+  left: 0;
+  top: -390px;
+  z-index: -1;
+}
+.founder-right-plus {
+  position: absolute;
+  right: 0;
+  top: -207px;
+  width: 30%;
+  z-index: -1;
+}
+.phamacist-bonus-sec{
+  background-image: url(../images/landing-page-img/sea-shadow-img.png);
+  background-position: center;
+  background-size: cover;
+}
+.faq-plus-bottom-icon {
+  position: absolute;
+  top: -225px;
+  z-index: -1;
+}
+.phamacist-accordion-sec {
+  position: relative;
+ 
+}
+.what-contnet-name p {
+  margin-bottom: 0px;
+  color: #231f40;
+}
+.whatapp-icon-content h5 {
+  margin-bottom: 20px;
+}
+.whatsapp-area-sec {
+  background-color: #e9fff2;
+  padding: 5px 10px;
+  border-radius: 6px;
+  width: 15%;
+  margin: auto;
+}
+/* working register page login */
+.workshop-register-title h1 {
+  border: 2px dashed #107b38;
+  border-radius: 6px;
+  padding: 24px;
+  font-size: 35px;
+  width: 80%;
+  margin: auto;
+}
+.workshop-register-form-sec {
+  background-color: #107b38;
+  padding: 20px 50px 50px 50px;
+  border-radius: 10px;
+}
+.wrokshop-form-nav-sec .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #107b38;
+  border-color: #107b38;
+  border-radius: 10px;
+}
+.wrokshop-form-nav-sec .nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  color: #495057;
+  background-color: #107b38;
+  border-color: #107b38;
+  border-radius: 10px;
+}
+.wrokshop-form-nav-sec {
+  background-color: #128d41;
+  padding: 10px;
+  border-radius: 10px;
+}
+.wrokshop-form-nav-sec .nav-item {
+  width: 49%;
+  margin: auto;
+}
+.wrokshop-form-nav-sec .nav-tabs {
+  border-bottom: none;
+}
+.workshop-login-form-contnet {
+  padding: 20px;
+}
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-group label {
+  margin-bottom: 0.5rem;
+  font-family: "IBM Plex Sans";
+}
+
+.checkbox-group input[type="radio"] {
+  margin-right: 0.5rem;
+}
+.btn.workshop-register-btn {
+  background-color: #107b38;
+  color: #fff;
+  padding: 6px 20px;
+  font-size: 15px;
+  border-radius: 6px;
+  font-family: "IBM Plex Sans";
+}
+.workshop-login-btn-sec {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 6px;
+}
+.wrokshop-form-nav-sec label.form-label {
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  color: #fff;
+  font-family: "IBM Plex Sans";
+}
+
+.checkbox-group input[type="radio"] {
+  margin-right: 0.5rem;
+  height: 20px;
+  width: 20px;
+}
+.course-title-area-sec {
+  border-bottom: 1px dashed #fff;
+  border-bottom-color: rgb(255, 255, 255);
+  border-bottom-style: dashed;
+  border-bottom-width: 1px;
+  margin-bottom: 10px;
+}
